@@ -1,10 +1,19 @@
 import os
 
+
 def try_parse_int(value: str):
     try:
         return int(value)
     except Exception:
         return None
+
+
+def try_parse(type, value: str):
+    try:
+        return type(value)
+    except Exception:
+        return None
+
 
 # Configuration for the Store API
 STORE_API_HOST = os.environ.get("STORE_API_HOST") or "localhost"

@@ -78,29 +78,6 @@ services:
     networks:
       - hub_redis
 
-  hub:
-    container_name: hub
-    build: ../
-    depends_on:
-      - mqtt
-      - redis
-      - store
-    environment:
-      STORE_API_HOST: "store"
-      STORE_API_PORT: 8000
-      REDIS_HOST: "redis"
-      REDIS_PORT: 6379
-      MQTT_BROKER_HOST: "mqtt"
-      MQTT_BROKER_PORT: 1883
-      MQTT_TOPIC: agent_data_topic
-      BATCH_SIZE: 1
-    ports:
-      - "9000:8000"
-    networks:
-      - mqtt_network
-      - hub_store
-      - hub_redis
-
 networks:
   mqtt_network:
   db_network:

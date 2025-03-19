@@ -18,11 +18,10 @@ class StoreApiAdapter(StoreGateway):
             agent_data.model_dump(mode="json")
             for agent_data in processed_agent_data_batch
         ]
-        for item in data:
-            response = requests.post(url, json=item)
-            if response.status_code != 200:
-                raise Exception(
-                    f"Failed to save data: {response.status_code}, {response.text}"
-                )
+        response = requests.post(url, json=data)
+        if response.status_code != 200:
+            raise Exception(
+                f"Failed to save data: {response.status_code}, {response.text}"
+            )
 
         return response.json()
