@@ -28,7 +28,7 @@ class HubMqttAdapter(HubGateway):
         # Set up MQTT event handlers
         self.client.on_connect = self.on_connect
         self.client.on_publish = self.on_publish
-
+        logging.info(f"Connecting to MQTT broker {self.broker}:{self.port}")
         self.client.connect(self.broker, self.port)
 
     def on_connect(self, client, userdata, flags, rc):

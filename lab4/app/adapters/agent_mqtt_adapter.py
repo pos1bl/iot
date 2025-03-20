@@ -16,6 +16,8 @@ from typing import List
 
 from app.adapters.store_api_adapter import StoreApiAdapter
 from app.interfaces.hub_gateway import HubGateway
+from app.entities.agent_data import AgentData
+from app.usecases.data_processing import process_agent_data
 
 
 class AgentMQTTAdapter:
@@ -60,8 +62,8 @@ class AgentMQTTAdapter:
         """
         try:
             payload: str = msg.payload.decode("utf-8")
-            processed_agent_data = ProcessedAgentData.model_validate_json(
-                payload, strict=True
+            processed_agent_data = process_agent_data(
+                AgentData.model_validate_json(payload, strict=True)
             )
 
             # Save the processed agent data via the HubGateway (MQTT-based)
