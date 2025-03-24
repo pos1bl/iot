@@ -1,12 +1,10 @@
 from paho.mqtt import client as mqtt_client
-import json
 import time
 from schema.aggregated_data_schema import AggregatedDataSchema
 from schema.parking_schema import ParkingSchema
 from file_datasource import FileDatasource
 import config
 
-#  // последний
 def connect_mqtt(broker, port):
     """Create MQTT client"""
     print(f"CONNECT TO {broker}:{port}")

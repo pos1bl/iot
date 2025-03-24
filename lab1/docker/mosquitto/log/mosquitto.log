@@ -280,3 +280,93 @@
 1742136706: New client connected from 172.18.0.3:38633 as auto-1BA3316D-AAC8-3969-CF06-86C89384BC7F (p2, c1, k60).
 1742136707: New connection from 172.18.0.1:56130 on port 1883.
 1742136707: New client connected from 172.18.0.1:56130 as mqtt-explorer-f2db7c81 (p2, c1, k60).
+1742652513: mosquitto version 2.0.21 starting
+1742652513: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652513: Opening ipv4 listen socket on port 1883.
+1742652513: Opening ipv6 listen socket on port 1883.
+1742652513: mosquitto version 2.0.21 running
+1742652514: New connection from 172.18.0.3:47269 on port 1883.
+1742652514: New client connected from 172.18.0.3:47269 as auto-358523AF-80A8-4595-33F8-3FD9EFC17891 (p2, c1, k60).
+1742652522: Client auto-358523AF-80A8-4595-33F8-3FD9EFC17891 closed its connection.
+1742652752: mosquitto version 2.0.21 starting
+1742652752: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652752: Opening ipv4 listen socket on port 1883.
+1742652752: Opening ipv6 listen socket on port 1883.
+1742652752: mosquitto version 2.0.21 running
+1742652753: New connection from 172.18.0.3:48979 on port 1883.
+1742652753: New client connected from 172.18.0.3:48979 as auto-F6780E9F-5BE0-AE2C-6FDA-018D3087563C (p2, c1, k60).
+1742652784: mosquitto version 2.0.21 starting
+1742652784: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652784: Opening ipv4 listen socket on port 1883.
+1742652784: Opening ipv6 listen socket on port 1883.
+1742652784: mosquitto version 2.0.21 running
+1742652785: New connection from 172.18.0.3:60041 on port 1883.
+1742652785: New client connected from 172.18.0.3:60041 as auto-8AAC22FE-F538-0FC5-AB85-0458FAEDFEE0 (p2, c1, k60).
+1742652829: mosquitto version 2.0.21 starting
+1742652829: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652829: Opening ipv4 listen socket on port 1883.
+1742652829: Opening ipv6 listen socket on port 1883.
+1742652829: mosquitto version 2.0.21 running
+1742652830: New connection from 172.18.0.3:44087 on port 1883.
+1742652830: New client connected from 172.18.0.3:44087 as auto-EF9E87AB-DC96-575D-A9FB-32BD6E89E79E (p2, c1, k60).
+1742652865: mosquitto version 2.0.21 starting
+1742652865: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652865: Opening ipv4 listen socket on port 1883.
+1742652865: Opening ipv6 listen socket on port 1883.
+1742652865: mosquitto version 2.0.21 running
+1742652866: New connection from 172.18.0.3:34693 on port 1883.
+1742652866: New client connected from 172.18.0.3:34693 as auto-AC294A13-3F6D-8EDC-C59E-95082283ACE3 (p2, c1, k60).
+1742652887: mosquitto version 2.0.21 starting
+1742652887: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652887: Opening ipv4 listen socket on port 1883.
+1742652887: Opening ipv6 listen socket on port 1883.
+1742652887: mosquitto version 2.0.21 running
+1742652887: New connection from 172.18.0.3:59723 on port 1883.
+1742652887: New client connected from 172.18.0.3:59723 as auto-3D689A18-FBA1-1B79-95ED-1F626D15EBC5 (p2, c1, k60).
+1742652941: mosquitto version 2.0.21 starting
+1742652941: Config loaded from /mosquitto/config/mosquitto.conf.
+1742652941: Opening ipv4 listen socket on port 1883.
+1742652941: Opening ipv6 listen socket on port 1883.
+1742652941: mosquitto version 2.0.21 running
+1742652942: New connection from 172.18.0.3:46515 on port 1883.
+1742652942: New client connected from 172.18.0.3:46515 as auto-128EDAC6-7ACB-9CC7-6D17-B5D0BD49BD5E (p2, c1, k60).
+1742732661: mosquitto version 2.0.21 starting
+1742732661: Config loaded from /mosquitto/config/mosquitto.conf.
+1742732661: Opening ipv4 listen socket on port 1883.
+1742732661: Opening ipv6 listen socket on port 1883.
+1742732661: mosquitto version 2.0.21 running
+1742732662: New connection from 172.18.0.3:46737 on port 1883.
+1742732662: New client connected from 172.18.0.3:46737 as auto-5A8A082C-410C-ED2C-BCEA-F25704A9E35E (p2, c1, k60).
+1742732692: mosquitto version 2.0.21 starting
+1742732692: Config loaded from /mosquitto/config/mosquitto.conf.
+1742732692: Opening ipv4 listen socket on port 1883.
+1742732692: Opening ipv6 listen socket on port 1883.
+1742732692: mosquitto version 2.0.21 running
+1742732693: New connection from 172.18.0.3:44929 on port 1883.
+1742732693: New client connected from 172.18.0.3:44929 as auto-0C2EB26A-4A13-8260-1976-5C09CCF56A30 (p2, c1, k60).
+1742733131: mosquitto version 2.0.21 starting
+1742733131: Config loaded from /mosquitto/config/mosquitto.conf.
+1742733131: Opening ipv4 listen socket on port 1883.
+1742733131: Opening ipv6 listen socket on port 1883.
+1742733131: mosquitto version 2.0.21 running
+1742733132: New connection from 172.18.0.3:58331 on port 1883.
+1742733132: New client connected from 172.18.0.3:58331 as auto-A05AD909-F7EB-B114-9BA1-416B1606B76F (p2, c1, k60).
+1742733214: mosquitto version 2.0.21 starting
+1742733214: Config loaded from /mosquitto/config/mosquitto.conf.
+1742733214: Opening ipv4 listen socket on port 1883.
+1742733214: Opening ipv6 listen socket on port 1883.
+1742733214: mosquitto version 2.0.21 running
+1742733215: New connection from 172.18.0.3:42889 on port 1883.
+1742733215: New client connected from 172.18.0.3:42889 as auto-DA8B2339-1D1C-A9E0-6B90-747CCB1F857C (p2, c1, k60).
+1742733311: New connection from ::1:39344 on port 1883.
+1742733311: New client connected from ::1:39344 as auto-83F54EF8-195F-613A-54EC-AD203993B542 (p2, c1, k60).
+1742733572: Client auto-83F54EF8-195F-613A-54EC-AD203993B542 disconnected.
+1742733614: mosquitto version 2.0.21 starting
+1742733614: Config loaded from /mosquitto/config/mosquitto.conf.
+1742733614: Opening ipv4 listen socket on port 1883.
+1742733614: Opening ipv6 listen socket on port 1883.
+1742733614: mosquitto version 2.0.21 running
+1742733614: New connection from 172.18.0.3:39039 on port 1883.
+1742733614: New client connected from 172.18.0.3:39039 as auto-91C7FA41-3995-6366-4ACA-7F2985D1299A (p2, c1, k60).
+1742733624: New connection from ::1:37774 on port 1883.
+1742733624: New client connected from ::1:37774 as auto-C6E5CE34-8CA6-5D6A-0C94-568A5D13E9F6 (p2, c1, k60).
